@@ -1,0 +1,403 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    font-family: source sans pro;
+  
+
+}
+.background{
+    width:100%;
+    height:900px;
+    background-image: url('/images/headphones_hero_1.jpg');
+    background-position:center;
+    background-size: cover;
+    overflow-y:hidden ;
+}
+.btn1{
+    opacity: 0;
+}
+ 
+
+header img{
+    width:161px;
+    height: 32px;
+    margin-left:200px ;
+    margin-top: 20px;
+}
+nav{
+    margin-left: 900px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding-left: 10px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+a:hover,
+a:active{
+    color: #FF6565;
+}
+.bg{
+    display:flex;
+    justify-content: center;
+
+}
+.text1{
+    text-align: center;
+    padding: 0 500px;
+}
+
+.btn2{
+    width: 162px;
+    height: 44px;
+    background-color:#FF6565;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 200px;
+    color: #FFFFFF;
+    font-weight: 700;
+    border: none;
+}
+
+.btn2:hover{
+opacity:0;
+}
+ h1, h4{
+    position:relative;
+    top: 100px;
+
+   
+    
+}
+.text1 p{
+    margin-top: 60px;
+    
+}
+
+#What{
+    height: 600px;
+    width: 100%;
+    margin-bottom: 200px;
+    transition: all 0.4s ease-in-out;
+   animation: float 0.5s ease-in-out infinite;
+    
+    
+}
+
+#Result:hover {
+    transform: scale(1.1) rotate(5deg); 
+    opacity: 0.9;
+}
+
+.text2{
+    margin-top: 200px;
+    color: black;
+    display: block;
+    text-align: center;
+    padding:0 500px;
+    
+}
+.text2 h2{
+    font-size: 2.7em;
+}
+.text2 p{
+    margin-top: 50px;
+}
+
+.what-images{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+
+
+}
+#Result{
+    background-image: url(/images/headphones_hero_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.4s ease-in-out;
+  animation: float 2.5s ease-in-out infinite;
+
+}
+#Result:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.9; 
+}
+
+
+
+@keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); 
+    }
+  }
+
+
+
+
+
+
+
+
+.text3 h3{
+    font-size: 32px;
+}
+.text3 p{
+    margin-top: 40px;
+}
+.text3{
+    text-align: center;
+    padding:160px 440px;
+}
+.pentagon{
+    margin-top: 500px;
+    position:absolute;
+    
+    
+}
+.pentagon img{
+    width: 120px;
+    height: 120px;
+
+}
+.pent-1, .pent-2,.pent-3,.pent-4{
+    float:left;
+    width: 20%;
+    padding-left: 150px;
+    
+}
+#Contact{
+    margin-top: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+#Contact h3{
+    color: black;
+    text-align: center;
+    font-size: 32px;
+}
+
+form{
+    padding: 200px;
+    margin-top: -300px;
+
+}
+
+.Message input, .Email input, .name input{
+    margin-top: 80px;
+    border: none;
+    border-bottom: solid black 2px;
+    width: 335px;
+    height: 29px;
+    background-color: transparent;
+}
+.Message label, .Email label, .name label{
+position: relative;
+top: -10px;
+left: 40px;
+color: black;
+}
+.Message input{
+    margin-left: -15px;
+
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #071629;
+    height: 300px;
+}
+footer img{
+    position: relative;
+    top: 100px;
+    width: 161px;
+    height: 32px;
+    left: 100px;
+    
+}
+.social-media{
+    margin-left: 1000px;
+}
+.social-media img{
+    width: 40px;
+    height: 17px;
+    padding-right: 20px;
+}
+footer p{
+    text-align: center;
+    margin-top: 90px;
+}
+
+
+@media  (max-width: 500px){
+
+    body{
+        overflow-x: hidden;
+    
+    }
+
+    .background{
+        width: 100%;
+        height: 100%;
+        
+    
+    }
+    
+    
+    header img{
+        width: 120px;
+        height: auto;
+        margin-left: 100px;
+        
+    }
+    .btn1{
+        position:absolute;
+        top: 60px;
+        opacity: 1;
+        color: #FFFFFF;
+        font-size: 2.0em;
+        margin-left: 20px;  
+        cursor: pointer;
+        background-color:transparent;
+        
+    }
+    .btn1:hover{
+        
+        background-color: #FF6565;
+    
+    }
+    
+    nav{
+        margin-top: 80px;
+        margin-left:150px ;
+        width: 150px;
+        
+    }
+    
+    nav ul{
+        
+        margin-top: 30px;
+        display:none;
+    
+    }
+    
+    nav ul li{
+        padding-bottom: 60px;
+    }
+    
+    
+    nav ul li a{
+        font-size: 1.5em;
+    }
+    
+    
+    .text1{
+        padding: 0 100px;
+    }
+  
+    #What{
+        display:block;
+        justify-content: center;
+         margin-top: -160px; 
+         margin-bottom: 1000px;
+
+         
+        
+    }
+
+    .text2{
+        margin-top: 200px;
+        color: black;
+        display: block;
+        text-align: center;
+        padding:0 100px;
+        
+    }
+
+    .what-images{
+         width: 100%;
+        display:block;
+        flex-direction: column;
+        padding: 0 40px;
+        margin-top: 40px; 
+    }
+    .what-images img{
+        width:270px;
+    }
+
+    .pentagon{
+        margin-top: 900px;
+        margin-left: -150px;
+    
+        
+    }
+    .pent-1,.pent-2,.pent-3,.pent-4{
+        float: none;
+        padding:0 50px;
+    }
+    #Contact h3{
+        position: relative;
+        top:0;
+    }
+     form{
+        margin-top:550px;
+    }
+    .Message label, .Email label, .name label{
+        position: relative;
+        top:100px;
+        left: 30px;
+        color: black;
+     
+    }
+    .Message input{
+        margin-left: -5px;
+    
+    }
+    footer{
+        position: relative;
+        bottom: -800px;
+    }
+
+    footer img{
+        margin-left: 50px;
+        
+        
+    }
+    .social-media{
+        padding-top: 30px;
+        margin-left: 60px;
+    }
+    .social-media img{
+        margin-left: 10px;
+    }
+    footer p{
+        text-align: center;
+        margin-top: 160px;
+    }
+
+    #Result{
+        margin-top: -600px;
+    }
+
+}

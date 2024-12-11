@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+font-family: "source-sans-pro", sans-serif;
+overflow-x: hidden;
+}
+
+nav img{
+    margin-left: 170px;
+    margin-top: 37px;
+}
+nav ul{
+    display: flex;
+    position: absolute;
+    top: 37px;
+    left:1041px;
+    }
+nav ul li{
+    list-style-type:none;
+    padding-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size:12px ;
+    font-weight: 700;
+}
+
+.over1{
+    position: absolute;
+    left: 150px;
+    top: 970px;
+}
+.over2{
+    position: absolute;
+    left: 550px;
+    top: 970px;
+}
+.over3{
+    position: absolute;
+    top: 970px;
+    left: 920px;
+}
+.over4{
+    position: absolute;
+    top: 970px;
+    left: 1250px;
+}
+
+
+.background{
+    background-image: url("/Object.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+/* .backgound img{
+    height: 1055px;
+    width: 1448.15px;
+} */
+
+
+
+.text h1{
+    font-weight: 700;
+    text-align: center;
+    font-size: 120px;
+    color: #FFFFFF;
+}
+.span{
+    position: absolute;
+    top: 350px;
+    left: 600px;
+
+}
+.span span{
+    margin-left: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    color: #FFFFFF;
+}
+.text button{
+   margin-left: 700px;
+   margin-top: 20px;
+   width: 162px;
+   height: 44px;
+   background-color: #C271FF;
+   font-size: 14px;
+   font-weight: 600;
+   color: #FFFFFF;
+   text-align: center;
+   border-radius: 25px;
+   border: none;
+}
+
+.image-section1 h2{
+text-align: center;
+
+font-weight: 700;
+font-size: 32px;
+color: #C271FF;
+
+}
+.image-section1 h2 span{
+    color:#FFFFFF;
+}
+.image1,.image2,.image3{
+    margin-left: 40px;
+    float: left;
+    width: 22%;
+    color: #FFFF;
+    text-align: center;
+}
+
+.image2 img{
+    border-radius: 80px;
+}
+.image4{
+    color: #FFFFFF;
+    text-align: center;
+}
+.section2{
+    background-color: #C271FF;
+    height: 302px;
+}
+
+ .section2-image{
+    left: 300px;
+    position: absolute;
+    bottom: 60px;
+
+    
+ }
+
+ .text2{
+    position: absolute;
+    left:500px;
+    bottom: 90px;
+    color: #FFFFFF;
+ }
+ .section3 h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+ }
+ .section3 span{
+    color: #071629;
+    font-weight: 700;
+ }
+ .image5,.image6,.image7{
+    float: left;
+    width: 20%;
+    margin-left: 80px;
+    font-size: 16px;
+ }
+
+
+.tin-image1 img,.tin-image2 img,.tin-image3 img,.tin-image4 img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 30px;
+} 
+.tin-image1 h4,.tin-image2 h4,.tin-image3 h4,.tin-image4 h4{
+
+    color: #C271FF;
+    position: relative;
+    left: 35px;
+}
+.font-image{
+    display: flex;
+    color: #C271FF;
+    line-height: 70px;
+}
+.Section-smile{
+    background-color: #071629;
+    width: 1540px;
+    height: 450px;
+   
+}
+.Section-smile h2{
+    color: #C271FF;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+.Section-smile span{
+    color: #FFFFFF;
+}
+.smile1,.smile2,.smile3, .smile4{
+    width: 200px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 100px;
+    height: 50px;
+
+}
+.btn2{
+    margin-top: 320px;
+    margin-left: -570px;
+    width: 162px;
+    height: 44px;
+    background-color: #C271FF;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+}
+.section-faq h2{
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+
+}
+.faq-section1{
+    width: 100%;
+    height: 300px;
+
+}
+.faq1,.faq2{
+    width: 350px;
+    float: left;
+    margin-left: 230px;
+
+
+}
+
+.faq3,.faq4{
+    width:350px ;
+    float: left;
+    margin-left: 230px;
+}
+
+footer{
+    background-color: #071629;
+    margin-top: 300px;
+    height: 249px;
+}
+.logo{
+    margin-left: 100px;
+    height: 180px;
+    width: 169px;
+    margin-top: 40px;
+
+}
+.logo img{
+    padding-top: 140px;
+}
+.social{
+    margin-left: 1200px;
+    display: flex;
+    width: 100px;
+    height: 80px;
+    
+}
+
+.social i{
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    width: 40px;
+    height: 30px;
+    border-radius: 100px;
+    padding: 5px;
+    display: flex;
+}
+footer p{
+    text-align: center;
+    margin-top: 120px;
+    color: #FFFFFF;
+    
+}
